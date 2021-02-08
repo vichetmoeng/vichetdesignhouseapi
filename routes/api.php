@@ -1,5 +1,5 @@
 <?php
 
 Route::get('/', function () {
-    return response()->json("Hello World from API");
+    return response()->json(['message' => 'Hello World'], 200);
 });
